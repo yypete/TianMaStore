@@ -5,6 +5,15 @@
     "pages/cart/cart",
     "pages/my/my"
   ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goods_list/goods_list",
+        "nav_details/nav_details"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "黑马优购",
@@ -12,7 +21,7 @@
     "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
-    "selectedColor": "#9273c0",
+    "selectedColor": "#C00000",
     "list": [
       {
         "pagePath": "pages/home/home",

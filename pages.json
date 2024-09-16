@@ -28,6 +28,23 @@
 		}
 
 	}],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+			"path" : "goods_list/goods_list",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "nav_details/nav_details",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "黑马优购",
@@ -38,7 +55,7 @@
 		}
 	},
 	"tabBar": {
-		"selectedColor": "#9273c0",
+		"selectedColor": "#C00000",
 		"list": [{
 			"pagePath": "pages/home/home",
 			"text": "首页",

@@ -1,0 +1,36 @@
+/* 水平间距 */
+/* 水平间距 */
+swiper {
+  height: 350rpx;
+}
+swiper .swiper-item {
+  width: 100%;
+  height: 100%;
+}
+swiper .swiper-item .swiper-img {
+  width: 100%;
+  height: 100%;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 15rpx 0;
+}
+.nav-list .nav-img {
+  width: 100px;
+  height: 120rpx;
+}
+.floor-title {
+  width: 1400rpx;
+  height: 80rpx;
+}
+.floor-img-box {
+  width: 100%;
+  display: flex;
+  padding-left: 10rpx;
+}
+.floor-img-box .right-img-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
